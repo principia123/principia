@@ -1,0 +1,369 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+:root{
+    --color-red: rgba(76, 164, 218, 0.89) ;
+    --color-grais:#102b40;
+}
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "IBM Plex Sans Arabic", sans-serif;
+    /* font-family: "Poppins", sans-serif; */
+    background-color: #cdd8e2;
+}
+
+.collapse .btn {
+    background-color: var(--color-grais);
+    color: #fff;
+}
+.firsst .container{
+    padding: 80px 0 30px;
+    display: flex;
+    justify-content:space-around;
+}
+
+.container img{
+    width: 200px;
+    height: 200px;
+}
+
+.firsst{
+    background-color: #3cc5e6;
+}
+.secend{
+    width: 90%;
+    padding: 19px;
+    margin: 50px auto ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid #3cc5e6 ;
+    border-radius: 13px;
+}
+    .secend img{
+    width: 80px;
+    height: 80px;
+  }
+
+.secend .txt{
+    width: 70%;
+    text-align: center;
+}
+.secend .txt h1{
+    font-weight: bold;
+}
+.secend .txt p{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+.therd{
+    background-color: #0e2b3d;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    padding: 0 40px;
+}
+.therd p{
+    font-size: 16px;
+}
+.txtleft{
+    width: 40%;
+}
+
+.fourd{
+    text-align: center;
+    margin: 50px;
+}
+
+.divededthree{
+    margin: 40px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+
+}
+.devone{
+    margin: 0 10px;
+    padding: 10px ;
+    border: 3px solid #3cc5e6;
+    border-radius: 20px;
+}
+.devone img{
+    width: 80px;
+    height: 80px;
+}
+
+.five{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.five img{
+    width:400px;
+    height: 380px;
+}
+.five .txttlft{
+    width: 20%; 
+    text-align: right;
+}
+.five .txttlft h3{
+    margin: 20px 0;
+    letter-spacing: 1px;
+}
+
+.btn{
+    background-color: #102b40;
+}
+
+
+
+.sex {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center; 
+    text-align: center; 
+    background-color: #0e2b3d;
+}
+
+.iconss {
+    margin-bottom: 15px;
+    color: #fff;
+}
+.iconss i{
+    font-size: 24px;
+    margin: 20px 10px 0;
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+}
+.links a{
+    font-size: 12px;
+    margin: 0 10px;
+}
+
+.sex p{
+    color: #7e8082;
+    font-size: 12px;
+}
+.fa-facebook{
+    color: rgb(47, 107, 212);
+}
+.fa-instagram{
+    color: rgb(182, 190, 23);
+}
+.fa-envelope{
+    color: red;
+}
+
+ .seven{
+    margin: 40px 0;
+    background-color: #3cc5e6;
+    text-align: right;
+    display: flex;
+    justify-content: center;
+  }
+
+  .col-8 p{
+    font-size: 19px;
+    font-weight: 600;
+    margin :20px 0 40px;
+    }
+
+
+
+/* ------------------------------------------------------------- */
+
+
+    /* phone Styles */
+@media (max-width: 320px) {
+ 
+
+/* ------------------=--------------------------------- */
+    .firsst .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .firsst .container img{
+        width: 120px;
+        height: 120px;
+        margin-bottom: 30px;
+    }
+    .firsst .right {
+        padding: 0 10px;
+        /* background-color: yellowgreen; */
+    }
+    .firsst .right h4{
+        font-size: 16px;
+    }
+/* ------------------=--------------------------------- */
+
+
+
+
+
+/* ------------------=--------------------------------- */
+    .secend{
+        position: relative;
+    }
+   .secend .twoftoto img,
+   .secend img{
+     width: 40px;
+     height: 40px;
+     position: absolute;
+    }
+    .secend .atom{
+        position: absolute;
+        left: 0;
+        top: 10px;
+    }
+    .secend .inch{
+        position: absolute;
+        right: 0;
+        top: 60px;
+    }
+        .secend .txt{
+        margin: 0 auto;
+    }
+    .secend .txt h2{
+        font-size: 15px;
+    }
+    .secend .txt p{
+        font-size: 13px;
+    }
+/* ------------------=--------------------------------- */
+
+
+
+
+
+/* ------------------=--------------------------------- */
+   .therd {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+   }
+   .therd img{
+    display: none;
+   }
+   .therd .txtleft{
+    padding: 20px 0;
+    width: 100%;
+   }
+   .therd .txtleft h2{
+    font-size: 15px;
+   }
+   .therd .txtleft p{
+    font-size: 13px;
+   }
+/* ------------------=--------------------------------- */
+
+
+
+
+
+
+/* ------------------=--------------------------------- */
+  
+    .fourd h1{
+    text-align: right;
+   }
+   .fourd .divededthree{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+   }
+   .fourd .divededthree img{
+    width: 50px;
+    height: 50px;
+    margin: 10px 0;
+   }
+   .fourd .devone h3{
+    font-size: 16px;
+    margin: 10px 0 0;
+    font-weight: bold;
+   }
+   .fourd .devone p{
+    margin: 10px 0;
+    font-size: 13px;
+   }
+/* ------------------=--------------------------------- */
+
+
+
+
+
+
+/* ------------------=--------------------------------- */
+   .five {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+   }
+   .five .txttlft{
+    width: 100%;
+    padding: 10px 20px 30px;
+        background-color: #3cc5e6;
+   }
+
+   .five img{
+    width:300px;
+    height: 300px;
+}
+/* ------------------=--------------------------------- */
+
+
+
+
+/* ------------------=--------------------------------- */
+
+.seven .sction{
+    padding: 10px 10px 0;
+}
+.seven h2{
+    font-size: 17px;
+}
+.seven p{
+    font-size: 13px;
+}
+.seven .sction span {
+    font-weight: bold;
+}
+.seven button{
+    font-size: 10px;
+}
+
+/* ------------------=--------------------------------- */
+
+
+
+/* ------------------=--------------------------------- */
+   .sex .links p a{
+    font-size: 10px;
+}
+  .sex .iconss{
+    margin: 20px 0 5px;
+  }
+/* ------------------=--------------------------------- */
+
+
+
+
+
+
+   
+   
+   
+   
+   
+   
+   
+    .iconss i {
+        font-size: 20px; /* Adjust icon size for smaller screens */
+        margin: 5px; /* Add spacing between icons */
+    }
+}
