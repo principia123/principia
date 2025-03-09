@@ -181,7 +181,7 @@ body{
 
 
     /* phone Styles */
-@media (max-width: 376px) {
+@media (min-width: 376px) {
  
 
 /* ------------------=--------------------------------- */
