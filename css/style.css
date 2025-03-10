@@ -339,6 +339,7 @@ body{
    }
 
    .five img{
+    margin: 0 auto ;
     width:300px;
     height: 300px;
 }
